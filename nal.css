@@ -1,0 +1,49 @@
+/* 전체 캘린더 스타일 */
+#calendar {
+    width: 1400px; /* 캘린더 너비 */
+    padding: 10px; /* 내부 여백 */
+    text-align: center;
+    margin: 0 auto; /* 위아래 마진은 0, 좌우 마진은 자동으로 설정하여 가운데 정렬 */
+}
+
+/* 년/월 표시 스타일 */
+#head {
+    margin-bottom: 15px; /* 하단 여백 조정 (두번 선언되었으므로 하나로 통합) */
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+}
+
+#prev, #next {
+    background-color: #dadde3;
+    font-weight: bold;
+}
+
+/* 캘린더 테이블 스타일 */
+#calendar th {
+    height: 20px;
+    border: 1px solid gray;
+    text-align: center;
+    background-color: white;
+}
+#calendar table {
+    width: 100%; /* 테이블의 너비를 전체적으로 설정 */
+}
+
+#calendar td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+    width: 500px; /* 각 셀의 너비, 전체 테이블 너비에 따라 조절 가능 */
+    height: 70px;
+}
+
+#xdx {
+    background-color: rgba(36, 78, 189, 0.2);
+    font-weight: bold;
+}
+
+#calendar th{
+    background-color: rgba(7, 8, 8, 0.5);
+}
